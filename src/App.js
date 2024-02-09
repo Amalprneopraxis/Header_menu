@@ -23,6 +23,7 @@ export default App;
 const targetContainer = document.getElementById('container-id');
 
 if (targetContainer) {
+  console.log("container visible");
   // Render the button component into the target container
   ReactDOM.render(<Slider />, targetContainer);
 } else {
